@@ -1,9 +1,9 @@
 require 'pry'
 
 class String
-
+  attr_accessor :string
   def sentence?
-    
+    string.sentence?(".")
   end
 
   def question?
